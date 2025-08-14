@@ -12,7 +12,7 @@ export default function ModalRegister() {
   const [lnameError, setLnameError] = useState(false);
   const [planError, setPlanError] = useState(false);
   const [genderError, setGenderError] = useState(false);
-  const [isUserAgreed, setUserAgreed] = useState(true);
+  const [isUserAgreed, setUserAgreed] = useState(false);
   // ----------------------------------------------------------------
   const inputFnameOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setFnameError(false);
